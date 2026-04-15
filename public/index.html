@@ -1,12 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Loja</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <nav>
+        <div class="dropdown">
+            <img src="../public/images/menu-hamburguer.png" class="icones" >
+            <div class="dropdown-content">
+                <a href="">Link1</a>
+                <a href="">Link2</a>
+                <a href="">Link3</a>
+            </div>
+        </div>
+        
+        <form id="formSearch">
+            <input type="text" placeholder="Pesquisar">
+            <button><img src="../public/images/procurar.png" id="imgSearch"></button>
+        </form>
+        <div>
+            <a href=""><img src="../public/images/carrinho-de-compras.png" class="icones"></a>
+            <a href=""><img src="../public/images/do-utilizador.png" class="icones"></a>
+        </div>
+    </nav>
+    <header class="atributo"></header>
+    <main class="atributo">
+        <h1>Sobre nós</h1>
+        <div id="textArt">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
+                id est laborum.
+            </p>
+        </div>
+    </main>
+    <section id="abtColection" class="colections">
+        <h1>Informações:</h1>
+        <h2>Uma loja de roupas com a alma do Glória.</h2>
+        <div id="itemsInfo">
+            <div class="cards">
+                <img src="../public/images/jaqueta.png">
+                <div>
+                    <p>Reciclagem</p>
+                </div>
+                <p>Nós somos uma marca que recicla e promove a reciclagem</p>
+            </div>
+            <div class="cards">
+                <img src="../public/images/jaqueta.png">
+                <div>
+                    <p>Pessoal</p>
+                </div>
+                <p>Temos uma pegada pessoal na nossa marca</p>
+            </div>
+            <div class="cards">
+                <img src="../public/images/jaqueta.png">
+                <div>
+                    <p>Preços</p>
+                </div>
+                <p>Preços acessíveis</p>
+            </div>
+        </div>    
+    </section>
+    <section id="colection" class="colections">
+        <h1>Nova Coleção:</h1>
+        <h2>Items da nova coleção 2026.</h2>
+        <div id="items">
+            <div class="cards">
+                <img src="../public/images/jaqueta.png">
+                <div>
+                    <p>Jaqueta</p>
+                    <p>R$199.00</p>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="../public/images/jaqueta.png">
+                <div>
+                    <p>Jaqueta</p>
+                    <p>R$199.00</p>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="../public/images/jaqueta.png">
+                <div>
+                    <p>Jaqueta</p>
+                    <p>R$199.00</p>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="../public/images/jaqueta.png">
+                <div>
+                    <p>Jaqueta</p>
+                    <p>R$199.00</p>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="../public/images/jaqueta.png">
+                <div>
+                    <p>Jaqueta</p>
+                    <p>R$199.00</p>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <section id="sexSect">
+        <div>
+            <div id="sex">
+                <div class="escuro">
+                    <a href=""><img src="../public/images/mulher.webp"></a>
+                </div>
+                <div class="escuro">
+                    <a href=""><img src="../public/images/homem.webp"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="atributo">
+        <div>
+            <form>
+                <label>Inscreva-se para receber notificações: </label>
+                <input type="text" placeholder="E-mail">
+            </form>
+        </div>
+        <div id="logoF">
+            <img src="../public/images/logoLight.png" alt="">
+        </div>
+        <div id="rights">
+            <p> Ao navegar por este site você aceita o uso de cookies para agilizar a sua experiência de compra.</p>
+        </div>
+    </footer>
 </body>
 </html>
