@@ -36,9 +36,7 @@
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
     padding-top: 10px;
     padding-bottom: 10px;
     position: sticky;
@@ -52,9 +50,7 @@ nav:hover {
 
 #formSearch {
     width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 
 #formSearch>button {
@@ -74,9 +70,7 @@ input {
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
     height: 100vh;
     background-image: url(../public/images/backImg.png);
     border-bottom: solid rgb(71 102 123) 10px;
@@ -95,8 +89,6 @@ body {
 }
 
 #btnHead {
-    display: flex;
-    justify-content: space-around;
     margin-top: 20px;
 }
 
@@ -116,16 +108,8 @@ body {
     font-size: 20px;
 }
 
-#itemsInfo {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-around;
-}
 
-#items {
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .cards {
     height: 45vh;
@@ -140,8 +124,7 @@ body {
 .cards>div {
     margin-left: 10px;
     color: black;
-    display: flex;
-    justify-content: space-between;
+
 }
 
 .cards p {
@@ -152,11 +135,6 @@ section {
     margin: 30px 200px 0 200px;
 }
 
-#sex {
-    display: flex;
-    justify-content: space-between;
-    column-gap: 0;
-}
 
 .escuro {
     transition: filter 0.3s ease-in-out;
@@ -187,8 +165,6 @@ main>h1 {
 
 #textArt {
     width: 50%;
-    display: flex;
-    justify-content: center;
     margin: 0 auto 10vh auto;
     color: rgb(71 102 123);
 
@@ -215,8 +191,6 @@ footer form {
 }
 
 #logoF {
-    display: flex;
-    justify-content: center;
     align-items: center;
     height: 10vh;
     border-bottom: solid rgb(248 244 196) 1px;
@@ -235,112 +209,31 @@ footer form {
     text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
-    #sexSect {
-        margin: 0;
-    }
 
-    #sex {
-        display: block;
-    }
-
-    .escuro>a>img {
-        width: 100%;
-    }
-
-    #abtColection {
-        margin: 0;
-    }
-
-    #itemsInfo {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-
-    #colection {
-        margin: 0;
-    }
-
-    #items {
-        display: grid;
-    }
-
-    footer input {
-        margin-left: 0;
-        width: 70%;
-    }
-
-    #formSearch>input {
-        width: 100%;
-    }
+#sexSect {
+    margin: 0;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1200px) {
-    #sexSect {
-        margin: 0;
-    }
 
-    #sex {
-        display: block;
-    }
-
-    .escuro>a>img {
-        width: 100%;
-    }
-
-    #abtColection {
-        margin: 0;
-    }
-
-    #itemsInfo {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-    }
-
-    #colection {
-        margin: 0;
-    }
-
-    #items {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-
-    footer input {
-        margin-left: 0;
-        width: 70%;
-    }
-
-    #formSearch>input {
-        width: 100%;
-    }
+.escuro>a>img {
+    width: 100%;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 2260px) {
-    #sexSect {
-        margin: 0 10%;
-    }
+#abtColection {
+    margin: 0;
+}
 
-    #sex {
-        display: block;
-    }
 
-    .escuro>a>img {
-        width: 80%;
-        margin: 20px 0 20px 0;
-    }
-    .escuro>a{
-        display: flex;
-        justify-content: center;
-    }
-        footer input {
-        margin-left: 30px;
-        width: 50%;
-    }
-        #items {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
+#colection {
+    margin: 0;
+}
+
+
+footer input {
+    margin-left: 0;
+    width: 70%;
+}
+
+#formSearch>input {
+    width: 100%;
 }
